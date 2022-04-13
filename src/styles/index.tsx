@@ -66,6 +66,7 @@ export const GlobalStyles = createGlobalStyle`
 
 	*, *:before, *:after {
 		box-sizing: border-box;
+		transition: all 0.5s;
 	}
 
 	:not(pre):not(span)::selection {
